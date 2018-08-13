@@ -1,2 +1,2 @@
 # bootstrap
-https://koladeore.github.io/food-website/
+https://koladeore.github.io/food-website/new.html
