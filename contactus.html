@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('black');				
+				$('.navbar-light .navbar-nav .nav-link').css('color','rgba(255,255,255,0.7)');
+			}
+			else {
+				$('nav').removeClass('black');
+				$('.navbar-light .navbar-nav .nav-link').css('color','rgba(0,0,0,0.5)');
+			}
+		})
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="pic/logo.jpg">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="new.html">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">ABOUTUS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html">SERVICES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactus.html">CONTACTUS</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid icon">
+		<div class="one text-center">
+			<div class='row'>
+				<div class="social_icons">
+					<a href="#" class='facebook'><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+				<div class="social_icons">	
+					<a href="#" class='twitter'><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			    </div>
+			    <div class="social_icons">	
+			    	<a href="#" class='google'><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			    </div>   
+			     <div class="social_icons">	
+			    		<a href="#" class='linkedin'>
+			    		<i class="fa fa-linkedin" aria-hidden="true"></i>
+			    		</a>
+			    </div>
+			    <div class="social_icons">
+			    	<a href="#" class='instagram'><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-4 col-sm-2 col-xs-12">
+				
+			</div>
+			<div class="col-md-4 col-sm-8 col-xs-12">
+				<form class="dove">
+					<h1>orezy company</h1>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Remember me</label>
+					</div>
+					<button type="submit" class="btn btn-success btn-block">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
